@@ -1,1 +1,104 @@
-{"inuse": "yes", "team": "team", "manager": "manager", "manager country": "England", "formation": "4-4-2", "squad": [{"name": "Jack Thompson", "country": "England", "position": "GK", "rating": 50, "role": "Goalkeeper"}, {"name": "Liam O'Connor", "country": "England", "position": "LB", "rating": 51, "role": "Fullback (Support)"}, {"name": "Ben Harris", "country": "England", "position": "CB", "rating": 52, "role": "Centreback (Defend)"}, {"name": "Charlie Moore", "country": "England", "position": "CB", "rating": 50, "role": "Centreback (Defend)"}, {"name": "Oscar Walker", "country": "England", "position": "RB", "rating": 51, "role": "Fullback (Support)"}, {"name": "George Wright", "country": "England", "position": "LW", "rating": 52, "role": "Winger (Support)"}, {"name": "Harvey Cooper", "country": "England", "position": "CM", "rating": 50, "role": "Ball Winning Midfielder (Support)"}, {"name": "Sam Allen", "country": "England", "position": "CM", "rating": 51, "role": "Central Midfielder (Support)"}, {"name": "Luke Richardson", "country": "England", "position": "RW", "rating": 52, "role": "Winger (Support)"}, {"name": "Tommy Evans", "country": "England", "position": "ST", "rating": 50, "role": "Advanced Forward (Attack)"}, {"name": "Joe Mitchell", "country": "England", "position": "ST", "rating": 51, "role": "Advanced Forward (Attack)"}], "coins": "1000", "division": "10", "gamesremaining": "10", "points": "0", "tactics": {"directness": "Balanced", "tempo": "Balanced", "dribbling": "Balanced", "press": "Balanced", "defensive line": "Balanced", "defensive width": "Balanced", "approach": {"left": false, "middle": true, "right": false}}, "match speed": 1.0}
+{
+  "inuse": "no",
+  "team": "MyTeam",
+  "manager": "YourManagerName",
+  "manager country": "England",
+  "formation": "4-4-2",
+  "squad": [
+    {
+      "name": "Jack Thompson",
+      "country": "England",
+      "position": "GK",
+      "rating": 50,
+      "role": "Goalkeeper"
+    },
+    {
+      "name": "Liam O'Connor",
+      "country": "England",
+      "position": "LB",
+      "rating": 51,
+      "role": "Fullback (Support)"
+    },
+    {
+      "name": "Ben Harris",
+      "country": "England",
+      "position": "CB",
+      "rating": 52,
+      "role": "Centreback (Defend)"
+    },
+    {
+      "name": "Charlie Moore",
+      "country": "England",
+      "position": "CB",
+      "rating": 50,
+      "role": "Centreback (Defend)"
+    },
+    {
+      "name": "Oscar Walker",
+      "country": "England",
+      "position": "RB",
+      "rating": 51,
+      "role": "Fullback (Support)"
+    },
+    {
+      "name": "George Wright",
+      "country": "England",
+      "position": "LW",
+      "rating": 52,
+      "role": "Winger (Support)"
+    },
+    {
+      "name": "Harvey Cooper",
+      "country": "England",
+      "position": "CM",
+      "rating": 50,
+      "role": "Central Midfielder (Support)"
+    },
+    {
+      "name": "Sam Allen",
+      "country": "England",
+      "position": "CM",
+      "rating": 51,
+      "role": "Central Midfielder (Support)"
+    },
+    {
+      "name": "Luke Richardson",
+      "country": "England",
+      "position": "RW",
+      "rating": 52,
+      "role": "Winger (Support)"
+    },
+    {
+      "name": "Tommy Evans",
+      "country": "England",
+      "position": "ST",
+      "rating": 50,
+      "role": "Advanced Forward (Attack)"
+    },
+    {
+      "name": "Joe Mitchell",
+      "country": "England",
+      "position": "ST",
+      "rating": 51,
+      "role": "Advanced Forward (Attack)"
+    }
+  ],
+  "coins": "1000",
+  "division": "10",
+  "gamesremaining": "10",
+  "points": "0",
+  "tactics": {
+    "directness": "Balanced",
+    "tempo": "Balanced",
+    "dribbling": "Balanced",
+    "press": "Balanced",
+    "defensive line": "Balanced",
+    "defensive width": "Balanced",
+    "approach": {
+      "left": false,
+      "middle": true,
+      "right": false
+    }
+  },
+  "match speed": "1.0"
+}

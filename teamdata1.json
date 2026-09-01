@@ -1,0 +1,2383 @@
+{
+  "inuse": "yes",
+  "team": "gooners",
+  "manager": "will",
+  "manager country": "England",
+  "formation": "4-4-2",
+  "squad": [
+    {
+      "name": "Antoine Marchand",
+      "country": "France",
+      "position": "GK",
+      "rating": 90,
+      "role": "Goalkeeper (Defend)"
+    },
+    {
+      "name": "Lars Jansen",
+      "country": "Netherlands",
+      "position": "LB",
+      "rating": 86,
+      "role": "Fullback (Defend)"
+    },
+    {
+      "name": "Koen Visser",
+      "country": "Netherlands",
+      "position": "CB",
+      "rating": 94,
+      "role": "Ball Playing Defender (Stopper)"
+    },
+    {
+      "name": "Daan de Vries",
+      "country": "Netherlands",
+      "position": "CB",
+      "rating": 88,
+      "role": "Centreback (Stopper)"
+    },
+    {
+      "name": "George Wilson",
+      "country": "England",
+      "position": "RB",
+      "rating": 85,
+      "role": "Fullback (Attack)"
+    },
+    {
+      "name": "Marcos Vinicius",
+      "country": "Brazil",
+      "position": "LW",
+      "rating": 90,
+      "role": "Inside Forward (Support)"
+    },
+    {
+      "name": "Ganji",
+      "country": "Brazil",
+      "position": "CM",
+      "rating": 86,
+      "role": "Ball Winning Midfielder (Support)"
+    },
+    {
+      "name": "Lukas Muller",
+      "country": "Germany",
+      "position": "CM",
+      "rating": 93,
+      "role": "Playmaker (Support)"
+    },
+    {
+      "name": "Charlie Taylor",
+      "country": "England",
+      "position": "RW",
+      "rating": 94,
+      "role": "Inside Forward (Attack)"
+    },
+    {
+      "name": "Rafael Costa",
+      "country": "Brazil",
+      "position": "ST",
+      "rating": 94,
+      "role": "False Nine (Support)"
+    },
+    {
+      "name": "Alfie Knight",
+      "country": "England",
+      "position": "ST",
+      "rating": 91,
+      "role": "Advanced Forward (Attack)"
+    },
+    {
+      "name": "Matteo Bianchi",
+      "country": "Italy",
+      "position": "GK",
+      "rating": 69
+    },
+    {
+      "name": "Romeo Giordani",
+      "country": "Italy",
+      "position": "LB",
+      "rating": 57
+    },
+    {
+      "name": "George Carter",
+      "country": "England",
+      "position": "RB",
+      "rating": 70
+    },
+    {
+      "name": "Joe Mitchell",
+      "country": "England",
+      "position": "ST",
+      "rating": 51
+    },
+    {
+      "name": "Harvey Cooper",
+      "country": "England",
+      "position": "CM",
+      "rating": 50
+    },
+    {
+      "name": "Tom Martens",
+      "country": "Belgium",
+      "position": "CB",
+      "rating": 60
+    },
+    {
+      "name": "Gabriel Fontaine",
+      "country": "Belgium",
+      "position": "RW",
+      "rating": 62
+    },
+    {
+      "name": "Tommy Evans",
+      "country": "England",
+      "position": "ST",
+      "rating": 50
+    },
+    {
+      "name": "Bruno Matos",
+      "country": "Portugal",
+      "position": "GK",
+      "rating": 75
+    },
+    {
+      "name": "George Wright",
+      "country": "England",
+      "position": "LW",
+      "rating": 52
+    },
+    {
+      "name": "Luke Richardson",
+      "country": "England",
+      "position": "RW",
+      "rating": 52
+    },
+    {
+      "name": "Lucas Marchand",
+      "country": "France",
+      "position": "RW",
+      "rating": 65
+    },
+    {
+      "name": "Luca De Luca",
+      "country": "Italy",
+      "position": "ST",
+      "rating": 77
+    },
+    {
+      "name": "Oscar Walker",
+      "country": "England",
+      "position": "RB",
+      "rating": 51
+    },
+    {
+      "name": "Joris de Graaf",
+      "country": "Netherlands",
+      "position": "LW",
+      "rating": 53
+    },
+    {
+      "name": "Jesse de Jong",
+      "country": "Netherlands",
+      "position": "GK",
+      "rating": 70
+    },
+    {
+      "name": "Fermin Berardi",
+      "country": "Italy",
+      "position": "RW",
+      "rating": 75
+    },
+    {
+      "name": "Leon Fischer",
+      "country": "Germany",
+      "position": "LW",
+      "rating": 75
+    },
+    {
+      "name": "Marco Teixeira",
+      "country": "Portugal",
+      "position": "ST",
+      "rating": 73
+    },
+    {
+      "name": "Jack Thompson",
+      "country": "England",
+      "position": "GK",
+      "rating": 50
+    },
+    {
+      "name": "Charlie Moore",
+      "country": "England",
+      "position": "CB",
+      "rating": 50
+    },
+    {
+      "name": "Tim Hoffmann",
+      "country": "Germany",
+      "position": "LW",
+      "rating": 68
+    },
+    {
+      "name": "Raul Moreno",
+      "country": "Spain",
+      "position": "RW",
+      "rating": 52
+    },
+    {
+      "name": "Rui Mendes",
+      "country": "Portugal",
+      "position": "RW",
+      "rating": 65
+    },
+    {
+      "name": "Albuquerque",
+      "country": "Portugal",
+      "position": "CM",
+      "rating": 67
+    },
+    {
+      "name": "Noah Faure",
+      "country": "France",
+      "position": "GK",
+      "rating": 72
+    },
+    {
+      "name": "Nicolas Gimenez",
+      "country": "Argentina",
+      "position": "CM",
+      "rating": 54
+    },
+    {
+      "name": "Ben Harris",
+      "country": "England",
+      "position": "CB",
+      "rating": 52
+    },
+    {
+      "name": "Nicolas Perez",
+      "country": "Argentina",
+      "position": "CB",
+      "rating": 84
+    },
+    {
+      "name": "Milan Smit",
+      "country": "Netherlands",
+      "position": "CM",
+      "rating": 65
+    },
+    {
+      "name": "Victor Willems",
+      "country": "Belgium",
+      "position": "CB",
+      "rating": 67
+    },
+    {
+      "name": "Diego Fernandez",
+      "country": "Spain",
+      "position": "CB",
+      "rating": 70
+    },
+    {
+      "name": "Louis Foster",
+      "country": "England",
+      "position": "GK",
+      "rating": 74
+    },
+    {
+      "name": "Andrea Bianco",
+      "country": "Italy",
+      "position": "ST",
+      "rating": 65
+    },
+    {
+      "name": "Nicolas Torres",
+      "country": "Argentina",
+      "position": "CB",
+      "rating": 56
+    },
+    {
+      "name": "Arthur Willems",
+      "country": "Belgium",
+      "position": "GK",
+      "rating": 65
+    },
+    {
+      "name": "Javier Alonso",
+      "country": "Spain",
+      "position": "RW",
+      "rating": 80
+    },
+    {
+      "name": "Mathis Gauthier",
+      "country": "France",
+      "position": "LW",
+      "rating": 82
+    },
+    {
+      "name": "Edward White",
+      "country": "England",
+      "position": "RB",
+      "rating": 55
+    },
+    {
+      "name": "Santiago Torres",
+      "country": "Argentina",
+      "position": "LW",
+      "rating": 81
+    },
+    {
+      "name": "Ties de Jong",
+      "country": "Netherlands",
+      "position": "RW",
+      "rating": 77
+    },
+    {
+      "name": "Jesse van Dijk",
+      "country": "Netherlands",
+      "position": "LB",
+      "rating": 75
+    },
+    {
+      "name": "Miguel Moreno",
+      "country": "Spain",
+      "position": "CM",
+      "rating": 69
+    },
+    {
+      "name": "Lorenzo Ferraro",
+      "country": "Italy",
+      "position": "GK",
+      "rating": 64
+    },
+    {
+      "name": "Raul Navarro",
+      "country": "Spain",
+      "position": "CB",
+      "rating": 71
+    },
+    {
+      "name": "George Brown",
+      "country": "England",
+      "position": "CB",
+      "rating": 66
+    },
+    {
+      "name": "Louis Marchand",
+      "country": "France",
+      "position": "ST",
+      "rating": 54
+    },
+    {
+      "name": "Arthur Vermeulen",
+      "country": "Belgium",
+      "position": "CB",
+      "rating": 62
+    },
+    {
+      "name": "Andres Rocha",
+      "country": "Portugal",
+      "position": "GK",
+      "rating": 72
+    },
+    {
+      "name": "Harry Mitchell",
+      "country": "England",
+      "position": "GK",
+      "rating": 72
+    },
+    {
+      "name": "Lennart Scholz",
+      "country": "Germany",
+      "position": "GK",
+      "rating": 74
+    },
+    {
+      "name": "Noah Gauthier",
+      "country": "France",
+      "position": "ST",
+      "rating": 53
+    },
+    {
+      "name": "Alessandro Bianco",
+      "country": "Italy",
+      "position": "ST",
+      "rating": 59
+    },
+    {
+      "name": "Thibault De Smet",
+      "country": "Belgium",
+      "position": "GK",
+      "rating": 54
+    },
+    {
+      "name": "Fabio Greco",
+      "country": "Italy",
+      "position": "GK",
+      "rating": 58
+    },
+    {
+      "name": "Agustin Gonzalez",
+      "country": "Argentina",
+      "position": "LW",
+      "rating": 68
+    },
+    {
+      "name": "Lukas Meyer",
+      "country": "Germany",
+      "position": "CB",
+      "rating": 70
+    },
+    {
+      "name": "Thiago Pires",
+      "country": "Brazil",
+      "position": "RB",
+      "rating": 69
+    },
+    {
+      "name": "Liam Dupont",
+      "country": "Belgium",
+      "position": "RB",
+      "rating": 85
+    },
+    {
+      "name": "Javier Lopez",
+      "country": "Spain",
+      "position": "RW",
+      "rating": 73
+    },
+    {
+      "name": "Matias Gonzalez",
+      "country": "Argentina",
+      "position": "CB",
+      "rating": 78
+    },
+    {
+      "name": "Ramon Guedes",
+      "country": "Portugal",
+      "position": "LW",
+      "rating": 65
+    },
+    {
+      "name": "Lars Claeys",
+      "country": "Belgium",
+      "position": "RW",
+      "rating": 73
+    },
+    {
+      "name": "Liam O'Connor",
+      "country": "England",
+      "position": "LB",
+      "rating": 51
+    },
+    {
+      "name": "Marcos Almeida",
+      "country": "Brazil",
+      "position": "RB",
+      "rating": 68
+    },
+    {
+      "name": "Moritz Muller",
+      "country": "Germany",
+      "position": "RB",
+      "rating": 56
+    },
+    {
+      "name": "Baptiste Masson",
+      "country": "France",
+      "position": "ST",
+      "rating": 51
+    },
+    {
+      "name": "Maxime Blanc",
+      "country": "France",
+      "position": "CB",
+      "rating": 57
+    },
+    {
+      "name": "Gabriel Silva",
+      "country": "Brazil",
+      "position": "LW",
+      "rating": 61
+    },
+    {
+      "name": "Malik Johnson",
+      "country": "England",
+      "position": "LW",
+      "rating": 78
+    },
+    {
+      "name": "Elijah Gordon",
+      "country": "England",
+      "position": "LB",
+      "rating": 64
+    },
+    {
+      "name": "Paulo Pereira",
+      "country": "Portugal",
+      "position": "GK",
+      "rating": 54
+    },
+    {
+      "name": "Luis Monteiro",
+      "country": "Portugal",
+      "position": "LW",
+      "rating": 67
+    },
+    {
+      "name": "Oscar Green",
+      "country": "England",
+      "position": "CB",
+      "rating": 77
+    },
+    {
+      "name": "Facundo Ibarra",
+      "country": "Argentina",
+      "position": "RW",
+      "rating": 70
+    },
+    {
+      "name": "Davide Santoro",
+      "country": "Italy",
+      "position": "LB",
+      "rating": 73
+    },
+    {
+      "name": "Emiliano Sosa",
+      "country": "Argentina",
+      "position": "RW",
+      "rating": 66
+    },
+    {
+      "name": "Andre Carvalho",
+      "country": "Portugal",
+      "position": "LW",
+      "rating": 87
+    },
+    {
+      "name": "Ruben Visser",
+      "country": "Netherlands",
+      "position": "LB",
+      "rating": 77
+    },
+    {
+      "name": "Agustin Lopez",
+      "country": "Argentina",
+      "position": "CM",
+      "rating": 59
+    },
+    {
+      "name": "Sergio Hernandez",
+      "country": "Spain",
+      "position": "CM",
+      "rating": 67
+    },
+    {
+      "name": "Maxime Dubois",
+      "country": "France",
+      "position": "RW",
+      "rating": 79
+    },
+    {
+      "name": "Nicolas Sosa",
+      "country": "Argentina",
+      "position": "CM",
+      "rating": 70
+    },
+    {
+      "name": "Sam Allen",
+      "country": "England",
+      "position": "CM",
+      "rating": 51
+    },
+    {
+      "name": "Julian Schmid",
+      "country": "Germany",
+      "position": "LW",
+      "rating": 81
+    },
+    {
+      "name": "Sven Hoekstra",
+      "country": "Netherlands",
+      "position": "CB",
+      "rating": 61
+    },
+    {
+      "name": "Goncalo Pereira",
+      "country": "Portugal",
+      "position": "LB",
+      "rating": 50
+    },
+    {
+      "name": "Andre Robinson",
+      "country": "England",
+      "position": "LW",
+      "rating": 67
+    },
+    {
+      "name": "Carlos Navarro",
+      "country": "Spain",
+      "position": "RB",
+      "rating": 73
+    },
+    {
+      "name": "Victor Claes",
+      "country": "Belgium",
+      "position": "ST",
+      "rating": 67
+    },
+    {
+      "name": "Rafael Silva",
+      "country": "Brazil",
+      "position": "GK",
+      "rating": 65
+    },
+    {
+      "name": "Franco Perez",
+      "country": "Argentina",
+      "position": "CM",
+      "rating": 69
+    },
+    {
+      "name": "Marco Ferraro",
+      "country": "Italy",
+      "position": "ST",
+      "rating": 77
+    },
+    {
+      "name": "Julien Moreau",
+      "country": "France",
+      "position": "CB",
+      "rating": 84
+    },
+    {
+      "name": "Goncalo Silva",
+      "country": "Portugal",
+      "position": "CM",
+      "rating": 78
+    },
+    {
+      "name": "Bruno Pereira",
+      "country": "Portugal",
+      "position": "CB",
+      "rating": 75
+    },
+    {
+      "name": "Rafael Campos",
+      "country": "Portugal",
+      "position": "RB",
+      "rating": 52
+    },
+    {
+      "name": "Alvaro Moreno",
+      "country": "Spain",
+      "position": "LB",
+      "rating": 78
+    },
+    {
+      "name": "Julien Caron",
+      "country": "France",
+      "position": "CB",
+      "rating": 76
+    },
+    {
+      "name": "Carlos Hernandez",
+      "country": "Spain",
+      "position": "CM",
+      "rating": 69
+    },
+    {
+      "name": "Franco Gonzalez",
+      "country": "Argentina",
+      "position": "GK",
+      "rating": 77
+    },
+    {
+      "name": "Davide Conti",
+      "country": "Italy",
+      "position": "LW",
+      "rating": 84
+    },
+    {
+      "name": "Stan Bern",
+      "country": "Italy",
+      "position": "CB",
+      "rating": 69
+    },
+    {
+      "name": "Milan Jansen",
+      "country": "Netherlands",
+      "position": "CB",
+      "rating": 79
+    },
+    {
+      "name": "Carlos Ruiz",
+      "country": "Spain",
+      "position": "RB",
+      "rating": 84
+    },
+    {
+      "name": "Nathan Smith",
+      "country": "England",
+      "position": "GK",
+      "rating": 80
+    },
+    {
+      "name": "Henry King",
+      "country": "England",
+      "position": "LW",
+      "rating": 70
+    },
+    {
+      "name": "Luuk de Vries",
+      "country": "Netherlands",
+      "position": "GK",
+      "rating": 76
+    },
+    {
+      "name": "Antonio Santoro",
+      "country": "Italy",
+      "position": "CM",
+      "rating": 68
+    },
+    {
+      "name": "Thomas Garnier",
+      "country": "France",
+      "position": "RB",
+      "rating": 78
+    },
+    {
+      "name": "Sandro Femenez",
+      "country": "Brazil",
+      "position": "LB",
+      "rating": 76
+    },
+    {
+      "name": "Nelson Santos",
+      "country": "Portugal",
+      "position": "RB",
+      "rating": 57
+    },
+    {
+      "name": "Nicolas Diaz",
+      "country": "Argentina",
+      "position": "LW",
+      "rating": 65
+    },
+    {
+      "name": "Miguel Navarro",
+      "country": "Spain",
+      "position": "CM",
+      "rating": 54
+    },
+    {
+      "name": "Gustavo Carvalho",
+      "country": "Brazil",
+      "position": "GK",
+      "rating": 53
+    },
+    {
+      "name": "Matias Romero",
+      "country": "Argentina",
+      "position": "CB",
+      "rating": 80
+    },
+    {
+      "name": "Joao Cesar",
+      "country": "Brazil",
+      "position": "GK",
+      "rating": 68
+    },
+    {
+      "name": "Carlos Jimenez",
+      "country": "Spain",
+      "position": "CB",
+      "rating": 75
+    },
+    {
+      "name": "Antoine Moreau",
+      "country": "France",
+      "position": "RB",
+      "rating": 71
+    },
+    {
+      "name": "Matias Fernandez",
+      "country": "Argentina",
+      "position": "CB",
+      "rating": 51
+    },
+    {
+      "name": "Alberto Calleja",
+      "country": "Spain",
+      "position": "RW",
+      "rating": 50
+    },
+    {
+      "name": "Andre Barbosa",
+      "country": "Brazil",
+      "position": "CB",
+      "rating": 59
+    },
+    {
+      "name": "Danilo Carvalho",
+      "country": "Portugal",
+      "position": "ST",
+      "rating": 54
+    },
+    {
+      "name": "Bruno Silva",
+      "country": "Brazil",
+      "position": "LB",
+      "rating": 63
+    },
+    {
+      "name": "Harry Hall",
+      "country": "England",
+      "position": "RB",
+      "rating": 68
+    },
+    {
+      "name": "Giovanni Rinaldi",
+      "country": "Italy",
+      "position": "RW",
+      "rating": 52
+    },
+    {
+      "name": "Viktor Claes",
+      "country": "Belgium",
+      "position": "CM",
+      "rating": 83
+    },
+    {
+      "name": "Martin Romero",
+      "country": "Argentina",
+      "position": "CB",
+      "rating": 52
+    },
+    {
+      "name": "Carlos Souza",
+      "country": "Brazil",
+      "position": "LW",
+      "rating": 83
+    },
+    {
+      "name": "Carlos Martinez",
+      "country": "Spain",
+      "position": "LW",
+      "rating": 61
+    },
+    {
+      "name": "Sem Visser",
+      "country": "Netherlands",
+      "position": "RW",
+      "rating": 73
+    },
+    {
+      "name": "Sergio Gomez",
+      "country": "Spain",
+      "position": "LB",
+      "rating": 84
+    },
+    {
+      "name": "Noah Lambert",
+      "country": "Belgium",
+      "position": "RW",
+      "rating": 73
+    },
+    {
+      "name": "Lautaro Diaz",
+      "country": "Argentina",
+      "position": "GK",
+      "rating": 81
+    },
+    {
+      "name": "Carlos Torres",
+      "country": "Spain",
+      "position": "RW",
+      "rating": 55
+    },
+    {
+      "name": "Luuk Willems",
+      "country": "Netherlands",
+      "position": "RB",
+      "rating": 76
+    },
+    {
+      "name": "Julian Schmidt",
+      "country": "Germany",
+      "position": "ST",
+      "rating": 66
+    },
+    {
+      "name": "Felipe Teixeira",
+      "country": "Brazil",
+      "position": "RW",
+      "rating": 59
+    },
+    {
+      "name": "Finn Bakker",
+      "country": "Netherlands",
+      "position": "ST",
+      "rating": 85
+    },
+    {
+      "name": "Eduardo Lima",
+      "country": "Brazil",
+      "position": "LW",
+      "rating": 79
+    },
+    {
+      "name": "Rafael Nogueira",
+      "country": "Brazil",
+      "position": "LB",
+      "rating": 70
+    },
+    {
+      "name": "Santiago Rojas",
+      "country": "Argentina",
+      "position": "GK",
+      "rating": 50
+    },
+    {
+      "name": "Charlie Graham",
+      "country": "England",
+      "position": "RW",
+      "rating": 64
+    },
+    {
+      "name": "Pablo Vargas",
+      "country": "Spain",
+      "position": "GK",
+      "rating": 77
+    },
+    {
+      "name": "Jesse Visser",
+      "country": "Netherlands",
+      "position": "ST",
+      "rating": 82
+    },
+    {
+      "name": "Thomas Williams",
+      "country": "England",
+      "position": "ST",
+      "rating": 68
+    },
+    {
+      "name": "Marco Romano",
+      "country": "Italy",
+      "position": "ST",
+      "rating": 52
+    },
+    {
+      "name": "Julien Faure",
+      "country": "France",
+      "position": "LB",
+      "rating": 69
+    },
+    {
+      "name": "Tobias Muller",
+      "country": "Germany",
+      "position": "RB",
+      "rating": 65
+    },
+    {
+      "name": "Matteo Bianco",
+      "country": "Italy",
+      "position": "RW",
+      "rating": 59
+    },
+    {
+      "name": "Senne Jacobs",
+      "country": "Belgium",
+      "position": "LB",
+      "rating": 83
+    },
+    {
+      "name": "Thomas Wilson",
+      "country": "England",
+      "position": "GK",
+      "rating": 62
+    },
+    {
+      "name": "Tobias Meyer",
+      "country": "Germany",
+      "position": "LW",
+      "rating": 57
+    },
+    {
+      "name": "Mathis Vandenberghe",
+      "country": "Belgium",
+      "position": "ST",
+      "rating": 56
+    },
+    {
+      "name": "Jesse Hendriks",
+      "country": "Netherlands",
+      "position": "RB",
+      "rating": 66
+    },
+    {
+      "name": "Matias Rojas",
+      "country": "Argentina",
+      "position": "GK",
+      "rating": 50
+    },
+    {
+      "name": "Kwame Leonard",
+      "country": "England",
+      "position": "CM",
+      "rating": 71
+    },
+    {
+      "name": "Senne De Smet",
+      "country": "Belgium",
+      "position": "CB",
+      "rating": 65
+    },
+    {
+      "name": "Julian Fischer",
+      "country": "Germany",
+      "position": "LW",
+      "rating": 66
+    },
+    {
+      "name": "Harry Brown",
+      "country": "England",
+      "position": "RW",
+      "rating": 81
+    },
+    {
+      "name": "Alex Santana",
+      "country": "Brazil",
+      "position": "ST",
+      "rating": 66
+    },
+    {
+      "name": "Tobias Schulz",
+      "country": "Germany",
+      "position": "LW",
+      "rating": 54
+    },
+    {
+      "name": "William King",
+      "country": "England",
+      "position": "LB",
+      "rating": 65
+    },
+    {
+      "name": "Facundo Gimenez",
+      "country": "Argentina",
+      "position": "GK",
+      "rating": 67
+    },
+    {
+      "name": "Felix Bauer",
+      "country": "Germany",
+      "position": "LB",
+      "rating": 80
+    },
+    {
+      "name": "Mathis Claes",
+      "country": "Belgium",
+      "position": "LB",
+      "rating": 51
+    },
+    {
+      "name": "Tiago Fernandes",
+      "country": "Portugal",
+      "position": "RW",
+      "rating": 92
+    },
+    {
+      "name": "Marley Grant",
+      "country": "England",
+      "position": "LW",
+      "rating": 58
+    },
+    {
+      "name": "Renato Souza",
+      "country": "Brazil",
+      "position": "LB",
+      "rating": 78
+    },
+    {
+      "name": "Thibault Jacobs",
+      "country": "Belgium",
+      "position": "RW",
+      "rating": 66
+    },
+    {
+      "name": "Thomas de Smet",
+      "country": "Belgium",
+      "position": "CB",
+      "rating": 75
+    },
+    {
+      "name": "Wout Vandenberghe",
+      "country": "Belgium",
+      "position": "LW",
+      "rating": 51
+    },
+    {
+      "name": "Niels de Jong",
+      "country": "Netherlands",
+      "position": "ST",
+      "rating": 55
+    },
+    {
+      "name": "Santiago Pereira",
+      "country": "Argentina",
+      "position": "CM",
+      "rating": 53
+    },
+    {
+      "name": "Julian Weber",
+      "country": "Germany",
+      "position": "LW",
+      "rating": 70
+    },
+    {
+      "name": "William White",
+      "country": "England",
+      "position": "LB",
+      "rating": 67
+    },
+    {
+      "name": "George Green",
+      "country": "England",
+      "position": "ST",
+      "rating": 70
+    },
+    {
+      "name": "Santiago Fernandez",
+      "country": "Argentina",
+      "position": "ST",
+      "rating": 75
+    },
+    {
+      "name": "Tiago Costa",
+      "country": "Portugal",
+      "position": "RB",
+      "rating": 66
+    },
+    {
+      "name": "Tomas Herrera",
+      "country": "Argentina",
+      "position": "CM",
+      "rating": 71
+    },
+    {
+      "name": "Sem de Boer",
+      "country": "Netherlands",
+      "position": "CM",
+      "rating": 81
+    },
+    {
+      "name": "Luis Gomez",
+      "country": "Spain",
+      "position": "LB",
+      "rating": 72
+    },
+    {
+      "name": "Julian Schneider",
+      "country": "Germany",
+      "position": "GK",
+      "rating": 72
+    },
+    {
+      "name": "Arthur Dubois",
+      "country": "France",
+      "position": "GK",
+      "rating": 66
+    },
+    {
+      "name": "Jules Meersman",
+      "country": "Belgium",
+      "position": "ST",
+      "rating": 71
+    },
+    {
+      "name": "Lukas Schneider",
+      "country": "Germany",
+      "position": "LB",
+      "rating": 72
+    },
+    {
+      "name": "Gabriel Fernandes",
+      "country": "Portugal",
+      "position": "CB",
+      "rating": 71
+    },
+    {
+      "name": "Archie Smith",
+      "country": "England",
+      "position": "LB",
+      "rating": 52
+    },
+    {
+      "name": "Antoine Faure",
+      "country": "France",
+      "position": "RB",
+      "rating": 52
+    },
+    {
+      "name": "Paulo Correia",
+      "country": "Portugal",
+      "position": "RW",
+      "rating": 71
+    },
+    {
+      "name": "Lucas Lima",
+      "country": "Brazil",
+      "position": "ST",
+      "rating": 66
+    },
+    {
+      "name": "Koen Dijkstra",
+      "country": "Netherlands",
+      "position": "ST",
+      "rating": 73
+    },
+    {
+      "name": "Oliver Jones",
+      "country": "England",
+      "position": "CM",
+      "rating": 81
+    },
+    {
+      "name": "Carlos Fernandes",
+      "country": "Portugal",
+      "position": "CM",
+      "rating": 71
+    },
+    {
+      "name": "Lucas Romero",
+      "country": "Argentina",
+      "position": "GK",
+      "rating": 75
+    },
+    {
+      "name": "Pedro Santos",
+      "country": "Brazil",
+      "position": "RB",
+      "rating": 70
+    },
+    {
+      "name": "Noah Vermeulen",
+      "country": "Belgium",
+      "position": "CB",
+      "rating": 50
+    },
+    {
+      "name": "Pepe",
+      "country": "Portugal",
+      "position": "LW",
+      "rating": 67
+    },
+    {
+      "name": "Henry Davide",
+      "country": "Italy",
+      "position": "CM",
+      "rating": 73
+    },
+    {
+      "name": "Tom Vandenberghe",
+      "country": "Belgium",
+      "position": "LW",
+      "rating": 70
+    },
+    {
+      "name": "Noah Garcia",
+      "country": "France",
+      "position": "CM",
+      "rating": 50
+    },
+    {
+      "name": "Andre Souza",
+      "country": "Brazil",
+      "position": "CB",
+      "rating": 54
+    },
+    {
+      "name": "Lucas Oliveira",
+      "country": "Brazil",
+      "position": "RB",
+      "rating": 57
+    },
+    {
+      "name": "Lucas Dubois",
+      "country": "France",
+      "position": "RB",
+      "rating": 90
+    },
+    {
+      "name": "Alex Costa",
+      "country": "Portugal",
+      "position": "LW",
+      "rating": 70
+    },
+    {
+      "name": "Senne Peeters",
+      "country": "Belgium",
+      "position": "GK",
+      "rating": 52
+    },
+    {
+      "name": "Arthur Maes",
+      "country": "Belgium",
+      "position": "RB",
+      "rating": 64
+    },
+    {
+      "name": "James Anderson",
+      "country": "England",
+      "position": "LW",
+      "rating": 79
+    },
+    {
+      "name": "Gabriel Almeida",
+      "country": "Brazil",
+      "position": "LB",
+      "rating": 77
+    },
+    {
+      "name": "Alessandro Greco",
+      "country": "Italy",
+      "position": "RW",
+      "rating": 82
+    },
+    {
+      "name": "Rui Costa",
+      "country": "Portugal",
+      "position": "CB",
+      "rating": 78
+    },
+    {
+      "name": "Hugo Perrin",
+      "country": "France",
+      "position": "ST",
+      "rating": 72
+    },
+    {
+      "name": "Diogo Mendes",
+      "country": "Portugal",
+      "position": "CM",
+      "rating": 79
+    },
+    {
+      "name": "Luis Herrera",
+      "country": "Spain",
+      "position": "RB",
+      "rating": 77
+    },
+    {
+      "name": "Jansen Cillesen",
+      "country": "Netherlands",
+      "position": "RW",
+      "rating": 69
+    },
+    {
+      "name": "Benjamin Castro",
+      "country": "Argentina",
+      "position": "LB",
+      "rating": 64
+    },
+    {
+      "name": "Rafael Teixeira",
+      "country": "Brazil",
+      "position": "CM",
+      "rating": 51
+    },
+    {
+      "name": "Wout Meersman",
+      "country": "Belgium",
+      "position": "GK",
+      "rating": 73
+    },
+    {
+      "name": "Tomas Galvez",
+      "country": "Spain",
+      "position": "LB",
+      "rating": 73
+    },
+    {
+      "name": "Alfie Williams",
+      "country": "England",
+      "position": "RW",
+      "rating": 57
+    },
+    {
+      "name": "Timo Dekker",
+      "country": "Netherlands",
+      "position": "GK",
+      "rating": 66
+    },
+    {
+      "name": "Emiliano Torres",
+      "country": "Argentina",
+      "position": "RW",
+      "rating": 77
+    },
+    {
+      "name": "Felipe Costa",
+      "country": "Brazil",
+      "position": "CM",
+      "rating": 66
+    },
+    {
+      "name": "Santiago Lopez",
+      "country": "Argentina",
+      "position": "RB",
+      "rating": 51
+    },
+    {
+      "name": "Edward Brown",
+      "country": "England",
+      "position": "CM",
+      "rating": 65
+    },
+    {
+      "name": "Javier Fernandez",
+      "country": "Spain",
+      "position": "ST",
+      "rating": 66
+    },
+    {
+      "name": "Jules Maes",
+      "country": "Belgium",
+      "position": "CB",
+      "rating": 89
+    },
+    {
+      "name": "Andre Martins",
+      "country": "Brazil",
+      "position": "CM",
+      "rating": 59
+    },
+    {
+      "name": "Diego Herrera",
+      "country": "Spain",
+      "position": "LB",
+      "rating": 81
+    },
+    {
+      "name": "Alexandre Pepe",
+      "country": "Portugal",
+      "position": "RB",
+      "rating": 73
+    },
+    {
+      "name": "Miguel Silva",
+      "country": "Portugal",
+      "position": "CB",
+      "rating": 61
+    },
+    {
+      "name": "Roberto Luiz",
+      "country": "Brazil",
+      "position": "LW",
+      "rating": 71
+    },
+    {
+      "name": "Ruben Peeters",
+      "country": "Belgium",
+      "position": "LB",
+      "rating": 78
+    },
+    {
+      "name": "Jules Claes",
+      "country": "Belgium",
+      "position": "CB",
+      "rating": 62
+    },
+    {
+      "name": "Victor Azevedo",
+      "country": "Brazil",
+      "position": "LB",
+      "rating": 71
+    },
+    {
+      "name": "Gary Jr",
+      "country": "Brazil",
+      "position": "GK",
+      "rating": 54
+    },
+    {
+      "name": "Felix Wagner",
+      "country": "Germany",
+      "position": "CB",
+      "rating": 52
+    },
+    {
+      "name": "Milan Willems",
+      "country": "Netherlands",
+      "position": "CM",
+      "rating": 64
+    },
+    {
+      "name": "Lorenzo Vitale",
+      "country": "Italy",
+      "position": "GK",
+      "rating": 71
+    },
+    {
+      "name": "Luciano Rojas",
+      "country": "Argentina",
+      "position": "LB",
+      "rating": 72
+    },
+    {
+      "name": "Antonio Vitale",
+      "country": "Italy",
+      "position": "ST",
+      "rating": 72
+    },
+    {
+      "name": "Daniel Garcia",
+      "country": "Spain",
+      "position": "RW",
+      "rating": 75
+    },
+    {
+      "name": "Archie Wilson",
+      "country": "England",
+      "position": "GK",
+      "rating": 57
+    },
+    {
+      "name": "Simon Kuhn",
+      "country": "Germany",
+      "position": "CB",
+      "rating": 76
+    },
+    {
+      "name": "Koen Willems",
+      "country": "Netherlands",
+      "position": "LW",
+      "rating": 57
+    },
+    {
+      "name": "George Taylor",
+      "country": "England",
+      "position": "CB",
+      "rating": 55
+    },
+    {
+      "name": "Maxime Declercq",
+      "country": "Belgium",
+      "position": "LB",
+      "rating": 56
+    },
+    {
+      "name": "Igor Duarte",
+      "country": "Brazil",
+      "position": "CM",
+      "rating": 70
+    },
+    {
+      "name": "Lautaro Sosa",
+      "country": "Argentina",
+      "position": "GK",
+      "rating": 57
+    },
+    {
+      "name": "Noah Van Dijk",
+      "country": "Netherlands",
+      "position": "RW",
+      "rating": 67
+    },
+    {
+      "name": "Arjen Malacia",
+      "country": "Netherlands",
+      "position": "RW",
+      "rating": 73
+    },
+    {
+      "name": "Martin Sosa",
+      "country": "Argentina",
+      "position": "CB",
+      "rating": 77
+    },
+    {
+      "name": "Tim Schmidt",
+      "country": "Germany",
+      "position": "GK",
+      "rating": 67
+    },
+    {
+      "name": "Florian Schneider",
+      "country": "Germany",
+      "position": "CB",
+      "rating": 64
+    },
+    {
+      "name": "Paul Schmidt",
+      "country": "Germany",
+      "position": "LB",
+      "rating": 70
+    },
+    {
+      "name": "Diego Navarro",
+      "country": "Spain",
+      "position": "LB",
+      "rating": 50
+    },
+    {
+      "name": "Luciano Torres",
+      "country": "Argentina",
+      "position": "CB",
+      "rating": 53
+    },
+    {
+      "name": "Lorenzo Russo",
+      "country": "Italy",
+      "position": "ST",
+      "rating": 55
+    },
+    {
+      "name": "Javier Torres",
+      "country": "Spain",
+      "position": "RB",
+      "rating": 52
+    },
+    {
+      "name": "Daan Smit",
+      "country": "Netherlands",
+      "position": "LB",
+      "rating": 60
+    },
+    {
+      "name": "Alfie Wilson",
+      "country": "England",
+      "position": "RB",
+      "rating": 51
+    },
+    {
+      "name": "Theo Lambert",
+      "country": "France",
+      "position": "CM",
+      "rating": 85
+    },
+    {
+      "name": "Giovanni Santoro",
+      "country": "Italy",
+      "position": "CB",
+      "rating": 62
+    },
+    {
+      "name": "Felix Muller",
+      "country": "Germany",
+      "position": "LB",
+      "rating": 68
+    },
+    {
+      "name": "Diego Rocha",
+      "country": "Brazil",
+      "position": "LB",
+      "rating": 55
+    },
+    {
+      "name": "Tobias Becker",
+      "country": "Germany",
+      "position": "LB",
+      "rating": 62
+    },
+    {
+      "name": "Ricardo Nunes",
+      "country": "Portugal",
+      "position": "LW",
+      "rating": 77
+    },
+    {
+      "name": "Cody de Roon",
+      "country": "Netherlands",
+      "position": "LW",
+      "rating": 71
+    },
+    {
+      "name": "Niklas Braun",
+      "country": "Germany",
+      "position": "CM",
+      "rating": 77
+    },
+    {
+      "name": "Liam Vermeulen",
+      "country": "Belgium",
+      "position": "LB",
+      "rating": 78
+    },
+    {
+      "name": "Thijs Meijer",
+      "country": "Netherlands",
+      "position": "GK",
+      "rating": 66
+    },
+    {
+      "name": "Jorge Navarro",
+      "country": "Spain",
+      "position": "LB",
+      "rating": 78
+    },
+    {
+      "name": "Paul Schneider",
+      "country": "Germany",
+      "position": "CB",
+      "rating": 63
+    },
+    {
+      "name": "Daan Jansen",
+      "country": "Netherlands",
+      "position": "GK",
+      "rating": 79
+    },
+    {
+      "name": "Nicolo Vitale",
+      "country": "Italy",
+      "position": "CM",
+      "rating": 75
+    },
+    {
+      "name": "Pedro Martins",
+      "country": "Brazil",
+      "position": "CM",
+      "rating": 75
+    },
+    {
+      "name": "Sergio Ruiz",
+      "country": "Spain",
+      "position": "RW",
+      "rating": 65
+    },
+    {
+      "name": "Bruno Almeida 2",
+      "country": "Portugal",
+      "position": "RB",
+      "rating": 61
+    },
+    {
+      "name": "Sem de Vries",
+      "country": "Netherlands",
+      "position": "LW",
+      "rating": 52
+    },
+    {
+      "name": "Fabio Romano",
+      "country": "Italy",
+      "position": "CM",
+      "rating": 65
+    },
+    {
+      "name": "Goncalo Costa",
+      "country": "Portugal",
+      "position": "CB",
+      "rating": 84
+    },
+    {
+      "name": "Sandro Frattesi",
+      "country": "Italy",
+      "position": "LW",
+      "rating": 67
+    },
+    {
+      "name": "Henry Wilson",
+      "country": "England",
+      "position": "LB",
+      "rating": 54
+    },
+    {
+      "name": "Cas de Boer",
+      "country": "Netherlands",
+      "position": "CM",
+      "rating": 57
+    },
+    {
+      "name": "Arthur Peeters",
+      "country": "Belgium",
+      "position": "CM",
+      "rating": 68
+    },
+    {
+      "name": "Arthur Vandenberghe",
+      "country": "Belgium",
+      "position": "LB",
+      "rating": 69
+    },
+    {
+      "name": "Edward Williams",
+      "country": "England",
+      "position": "CB",
+      "rating": 68
+    },
+    {
+      "name": "Adian Gomez",
+      "country": "Spain",
+      "position": "LW",
+      "rating": 67
+    },
+    {
+      "name": "Danilo",
+      "country": "Brazil",
+      "position": "RB",
+      "rating": 79
+    },
+    {
+      "name": "Simon Maes",
+      "country": "Belgium",
+      "position": "RW",
+      "rating": 82
+    },
+    {
+      "name": "Jules Lefevre",
+      "country": "France",
+      "position": "ST",
+      "rating": 75
+    },
+    {
+      "name": "Gabriel Paredes",
+      "country": "Argentina",
+      "position": "ST",
+      "rating": 53
+    },
+    {
+      "name": "Arthur Claes",
+      "country": "Belgium",
+      "position": "LB",
+      "rating": 76
+    },
+    {
+      "name": "Liam Wright",
+      "country": "England",
+      "position": "RB",
+      "rating": 85
+    },
+    {
+      "name": "Joris Dekker",
+      "country": "Netherlands",
+      "position": "ST",
+      "rating": 82
+    },
+    {
+      "name": "Antoine Laurent",
+      "country": "France",
+      "position": "GK",
+      "rating": 55
+    },
+    {
+      "name": "Jacob Walker",
+      "country": "England",
+      "position": "LB",
+      "rating": 84
+    },
+    {
+      "name": "Felipe Silva",
+      "country": "Brazil",
+      "position": "RB",
+      "rating": 54
+    },
+    {
+      "name": "Bruno Pinto",
+      "country": "Portugal",
+      "position": "GK",
+      "rating": 74
+    },
+    {
+      "name": "Enzo Petit",
+      "country": "France",
+      "position": "ST",
+      "rating": 69
+    },
+    {
+      "name": "Wout Dekker",
+      "country": "Netherlands",
+      "position": "CM",
+      "rating": 87
+    },
+    {
+      "name": "Louis Simon",
+      "country": "Belgium",
+      "position": "LW",
+      "rating": 69
+    },
+    {
+      "name": "Trey Thompson",
+      "country": "England",
+      "position": "LW",
+      "rating": 69
+    },
+    {
+      "name": "Ricardo Coelho",
+      "country": "Portugal",
+      "position": "CM",
+      "rating": 83
+    },
+    {
+      "name": "Agustin Rojas",
+      "country": "Argentina",
+      "position": "CM",
+      "rating": 72
+    },
+    {
+      "name": "Ricardo Pinto",
+      "country": "Portugal",
+      "position": "LW",
+      "rating": 52
+    },
+    {
+      "name": "Pedro Sousa",
+      "country": "Portugal",
+      "position": "GK",
+      "rating": 68
+    },
+    {
+      "name": "Erik Fuchs",
+      "country": "Germany",
+      "position": "ST",
+      "rating": 72
+    },
+    {
+      "name": "Kobe Lemmens",
+      "country": "Belgium",
+      "position": "GK",
+      "rating": 82
+    },
+    {
+      "name": "Nicolo Bianco",
+      "country": "Italy",
+      "position": "CB",
+      "rating": 65
+    },
+    {
+      "name": "Facundo Lopez",
+      "country": "Argentina",
+      "position": "CM",
+      "rating": 82
+    },
+    {
+      "name": "Gonzalo Paredes",
+      "country": "Argentina",
+      "position": "LW",
+      "rating": 68
+    },
+    {
+      "name": "Thomas Smith",
+      "country": "England",
+      "position": "ST",
+      "rating": 60
+    },
+    {
+      "name": "Leon Meyer",
+      "country": "Germany",
+      "position": "CB",
+      "rating": 66
+    },
+    {
+      "name": "Matteo Russo",
+      "country": "Italy",
+      "position": "RW",
+      "rating": 82
+    },
+    {
+      "name": "Olivier Blanchet",
+      "country": "France",
+      "position": "LW",
+      "rating": 67
+    },
+    {
+      "name": "Carlos Marquez",
+      "country": "Spain",
+      "position": "LB",
+      "rating": 80
+    },
+    {
+      "name": "Leo Clarke",
+      "country": "England",
+      "position": "ST",
+      "rating": 76
+    },
+    {
+      "name": "Thibault Vandenberghe",
+      "country": "Belgium",
+      "position": "GK",
+      "rating": 68
+    },
+    {
+      "name": "Fabian Vogel",
+      "country": "Germany",
+      "position": "RW",
+      "rating": 76
+    },
+    {
+      "name": "Anderson Oliveira",
+      "country": "Brazil",
+      "position": "ST",
+      "rating": 80
+    },
+    {
+      "name": "Hugo Caron",
+      "country": "France",
+      "position": "GK",
+      "rating": 68
+    },
+    {
+      "name": "Rui Pereira",
+      "country": "Portugal",
+      "position": "CB",
+      "rating": 84
+    },
+    {
+      "name": "Arthur Lefevre",
+      "country": "France",
+      "position": "ST",
+      "rating": 75
+    },
+    {
+      "name": "Oliver Smith",
+      "country": "England",
+      "position": "CB",
+      "rating": 60
+    },
+    {
+      "name": "Raul Alonso",
+      "country": "Spain",
+      "position": "CM",
+      "rating": 86
+    },
+    {
+      "name": "Bram Hendriks",
+      "country": "Netherlands",
+      "position": "ST",
+      "rating": 83
+    },
+    {
+      "name": "Ruben Semedo",
+      "country": "Portugal",
+      "position": "CB",
+      "rating": 73
+    },
+    {
+      "name": "Giovanni Marino",
+      "country": "Italy",
+      "position": "GK",
+      "rating": 84
+    },
+    {
+      "name": "Niels de Boer",
+      "country": "Netherlands",
+      "position": "RW",
+      "rating": 74
+    },
+    {
+      "name": "Julian Herrera",
+      "country": "Argentina",
+      "position": "ST",
+      "rating": 86
+    },
+    {
+      "name": "Tom Janssens",
+      "country": "Belgium",
+      "position": "RW",
+      "rating": 79
+    },
+    {
+      "name": "Thijs Hendriks",
+      "country": "Netherlands",
+      "position": "RW",
+      "rating": 85
+    },
+    {
+      "name": "Andrea Romano",
+      "country": "Italy",
+      "position": "LB",
+      "rating": 78
+    },
+    {
+      "name": "Benson King",
+      "country": "England",
+      "position": "LW",
+      "rating": 80
+    },
+    {
+      "name": "Ethan Baker",
+      "country": "England",
+      "position": "CB",
+      "rating": 83
+    },
+    {
+      "name": "Facundo Torres",
+      "country": "Argentina",
+      "position": "GK",
+      "rating": 86
+    },
+    {
+      "name": "Lucas Silva",
+      "country": "Brazil",
+      "position": "CM",
+      "rating": 81
+    },
+    {
+      "name": "Theo Green",
+      "country": "England",
+      "position": "RW",
+      "rating": 81
+    },
+    {
+      "name": "Leo Faure",
+      "country": "France",
+      "position": "LB",
+      "rating": 57
+    },
+    {
+      "name": "Jeroen van Dijk",
+      "country": "Netherlands",
+      "position": "LB",
+      "rating": 67
+    },
+    {
+      "name": "Theo Gauthier",
+      "country": "France",
+      "position": "ST",
+      "rating": 67
+    },
+    {
+      "name": "Jules Vermeulen",
+      "country": "Belgium",
+      "position": "ST",
+      "rating": 78
+    },
+    {
+      "name": "Thibault Claes",
+      "country": "Belgium",
+      "position": "CM",
+      "rating": 52
+    },
+    {
+      "name": "Bastien Rousseau",
+      "country": "France",
+      "position": "CM",
+      "rating": 83
+    },
+    {
+      "name": "Raul Ruiz",
+      "country": "Spain",
+      "position": "CM",
+      "rating": 67
+    },
+    {
+      "name": "Antoine Olivier",
+      "country": "France",
+      "position": "RW",
+      "rating": 54
+    },
+    {
+      "name": "Ruben Kuiper",
+      "country": "Netherlands",
+      "position": "LW",
+      "rating": 62
+    },
+    {
+      "name": "Javier Hernandez",
+      "country": "Spain",
+      "position": "RW",
+      "rating": 50
+    },
+    {
+      "name": "Miguel Morais",
+      "country": "Portugal",
+      "position": "ST",
+      "rating": 87
+    },
+    {
+      "name": "Bram Martens",
+      "country": "Belgium",
+      "position": "LB",
+      "rating": 75
+    },
+    {
+      "name": "Jacob Wilson",
+      "country": "England",
+      "position": "LW",
+      "rating": 82
+    },
+    {
+      "name": "Sergio Fernandez",
+      "country": "Argentina",
+      "position": "LB",
+      "rating": 81
+    },
+    {
+      "name": "Simon Blanc",
+      "country": "France",
+      "position": "CM",
+      "rating": 86
+    },
+    {
+      "name": "Theo Garnier",
+      "country": "France",
+      "position": "ST",
+      "rating": 69
+    },
+    {
+      "name": "Luis Barbosa",
+      "country": "Portugal",
+      "position": "RB",
+      "rating": 83,
+      "role": "Fullback (Defend)"
+    },
+    {
+      "name": "Alexander Holmes",
+      "country": "England",
+      "position": "LB",
+      "rating": 52,
+      "role": "Fullback (Defend)"
+    },
+    {
+      "name": "Sergio Gracia",
+      "country": "Spain",
+      "position": "CM",
+      "rating": 67,
+      "role": "Central Midfielder (Defend)"
+    },
+    {
+      "name": "Carlos Lopez",
+      "country": "Argentina",
+      "position": "LB",
+      "rating": 88,
+      "role": "Fullback (Defend)"
+    },
+    {
+      "name": "Gabriel Faure",
+      "country": "France",
+      "position": "CM",
+      "rating": 82,
+      "role": "Central Midfielder (Defend)"
+    },
+    {
+      "name": "Gabriel Souza",
+      "country": "Brazil",
+      "position": "CB",
+      "rating": 76,
+      "role": "Centreback (Defend)"
+    },
+    {
+      "name": "Noah Peeters",
+      "country": "Belgium",
+      "position": "CM",
+      "rating": 81,
+      "role": "Central Midfielder (Defend)"
+    }
+  ],
+  "coins": "999683470",
+  "division": "1",
+  "gamesremaining": "9",
+  "points": "3",
+  "tactics": {
+    "directness": "Much more direct",
+    "tempo": "Slightly lower",
+    "dribbling": "Run at defence",
+    "press": "Much more often",
+    "defensive line": "Deeper",
+    "defensive width": "Narrow",
+    "approach": {
+      "left": true,
+      "middle": false,
+      "right": false
+    }
+  },
+  "match speed": 4.0,
+  "opponent": {
+    "team": "Barcelona",
+    "manager": "Nuno Gaspar",
+    "manager rating": 87,
+    "manager country": "Portugal",
+    "team rating": 84,
+    "formation": "5-3-2",
+    "players": [
+      {
+        "name": "Antoine Marchand",
+        "country": "France",
+        "position": "GK",
+        "role": "Goalkeeper (Defend)",
+        "rating": 90
+      },
+      {
+        "name": "Senne Jacobs",
+        "country": "Belgium",
+        "position": "LB",
+        "role": "Inverted Wingback (Defend)",
+        "rating": 83
+      },
+      {
+        "name": "Adrien Dubois",
+        "country": "France",
+        "position": "CB",
+        "role": "Ball Playing Defender (Cover)",
+        "rating": 82
+      },
+      {
+        "name": "Andres Diaz",
+        "country": "Spain",
+        "position": "CB",
+        "role": "Centreback (Stopper)",
+        "rating": 90
+      },
+      {
+        "name": "Tobias Klein",
+        "country": "Germany",
+        "position": "CB",
+        "role": "Libero (Support)",
+        "rating": 87
+      },
+      {
+        "name": "Luis Barbosa",
+        "country": "Portugal",
+        "position": "RB",
+        "role": "Fullback (Attack)",
+        "rating": 83
+      },
+      {
+        "name": "Simon Blanc",
+        "country": "France",
+        "position": "CM",
+        "role": "Ball Winning Midfielder (Defend)",
+        "rating": 86
+      },
+      {
+        "name": "Oliver Jones",
+        "country": "England",
+        "position": "CM",
+        "role": "Playmaker (Support)",
+        "rating": 81
+      },
+      {
+        "name": "Nico Hoffmann",
+        "country": "Germany",
+        "position": "CM",
+        "role": "Ball Winning Midfielder (Defend)",
+        "rating": 81
+      },
+      {
+        "name": "Bram Hendriks",
+        "country": "Netherlands",
+        "position": "ST",
+        "role": "Advanced Forward (Attack)",
+        "rating": 83
+      },
+      {
+        "name": "Mila Janssen",
+        "country": "Netherlands",
+        "position": "ST",
+        "role": "Complete Forward (Attack)",
+        "rating": 88
+      }
+    ],
+    "tactics": {
+      "directness": "Balanced",
+      "tempo": "Balanced",
+      "dribbling": "Balanced",
+      "press": "Balanced",
+      "defensive line": "Balanced",
+      "defensive width": "Balanced",
+      "approach": {
+        "left": false,
+        "middle": true,
+        "right": false
+      }
+    }
+  }
+}

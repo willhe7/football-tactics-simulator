@@ -1,0 +1,752 @@
+[
+  {
+    "division": 10,
+    "managers": [
+      {
+        "name": "Rivero Arjona",
+        "rating": 52,
+        "country": "Spain",
+        "formation": "4-3-3",
+        "team": "Exeter"
+      },
+      {
+        "name": "Speri Pirelli",
+        "rating": 50,
+        "country": "Italy",
+        "formation": "5-2-3",
+        "team": "Morecambe"
+      },
+      {
+        "name": "Odescalchi Galeati",
+        "rating": 55,
+        "country": "Italy",
+        "formation": "5-3-2",
+        "team": "Real Oviedo"
+      },
+      {
+        "name": "Otero Campos",
+        "rating": 51,
+        "country": "Belgium",
+        "formation": "5-2-3",
+        "team": "Frosinone"
+      },
+      {
+        "name": "Fortune Tutino",
+        "rating": 55,
+        "country": "Italy",
+        "formation": "4-2-2-2",
+        "team": "Quevilly-Rouen"
+      },
+      {
+        "name": "Ruiz de Chauveau",
+        "rating": 53,
+        "country": "France",
+        "formation": "4-5-1",
+        "team": "Fleetwood Town"
+      },
+      {
+        "name": "Rodrigo Melo",
+        "rating": 55,
+        "country": "Brazil",
+        "formation": "5-4-1",
+        "team": "Benevento"
+      },
+      {
+        "name": "Manuel Cabrero",
+        "rating": 50,
+        "country": "Spain",
+        "formation": "5-4-1",
+        "team": "Le Havre"
+      },
+      {
+        "name": "Largaux Bourdon",
+        "rating": 50,
+        "country": "France",
+        "formation": "4-5-1",
+        "team": "Paderborn"
+      },
+      {
+        "name": "Christian Tran",
+        "rating": 54,
+        "country": "Belgium",
+        "formation": "4-2-2-2",
+        "team": "Malaga"
+      }
+    ]
+  },
+  {
+    "division": 9,
+    "managers": [
+      {
+        "name": "Herranz Figueiredo",
+        "rating": 94,
+        "country": "Portugal",
+        "formation": "5-2-3",
+        "team": "Barnsley"
+      },
+      {
+        "name": "Marcos Alves",
+        "rating": 57,
+        "country": "Brazil",
+        "formation": "4-4-2",
+        "team": "Gillingham"
+      },
+      {
+        "name": "Tome Magalhaes",
+        "rating": 57,
+        "country": "Portugal",
+        "formation": "4-4-2",
+        "team": "Ponferradina"
+      },
+      {
+        "name": "Isaac Fischer",
+        "rating": 63,
+        "country": "France",
+        "formation": "4-3-3",
+        "team": "Parma"
+      },
+      {
+        "name": "Roland de la Dupuis",
+        "rating": 59,
+        "country": "France",
+        "formation": "4-3-3",
+        "team": "Ajaccio"
+      },
+      {
+        "name": "Marcio Melo",
+        "rating": 58,
+        "country": "Portugal",
+        "formation": "5-3-2",
+        "team": "Elche"
+      },
+      {
+        "name": "Biagio Micca",
+        "rating": 56,
+        "country": "Italy",
+        "formation": "4-2-2-2",
+        "team": "Blackpool"
+      },
+      {
+        "name": "Teixeira Borges",
+        "rating": 55,
+        "country": "Portugal",
+        "formation": "4-3-3",
+        "team": "Spezia"
+      },
+      {
+        "name": "Dick Robson",
+        "rating": 58,
+        "country": "England",
+        "formation": "4-5-1",
+        "team": "Annecy"
+      },
+      {
+        "name": "Garcia Matos",
+        "rating": 58,
+        "country": "Portugal",
+        "formation": "5-2-3",
+        "team": "Regensburg"
+      }
+    ]
+  },
+  {
+    "division": 8,
+    "managers": [
+      {
+        "name": "Joel Roberts",
+        "rating": 80,
+        "country": "England",
+        "formation": "5-4-1",
+        "team": "Coventry"
+      },
+      {
+        "name": "Maricel Manrique",
+        "rating": 62,
+        "country": "Spain",
+        "formation": "4-4-2",
+        "team": "Rotherham"
+      },
+      {
+        "name": "Etienne Lemoine",
+        "rating": 65,
+        "country": "France",
+        "formation": "4-2-2-2",
+        "team": "Huesca"
+      },
+      {
+        "name": "Giulio Simeoni",
+        "rating": 88,
+        "country": "Italy",
+        "formation": "4-3-3",
+        "team": "Cittadella"
+      },
+      {
+        "name": "Michael Anderson",
+        "rating": 85,
+        "country": "Belgium",
+        "formation": "5-4-1",
+        "team": "Dijon"
+      },
+      {
+        "name": "Angel Azevedo",
+        "rating": 56,
+        "country": "Portugal",
+        "formation": "5-4-1",
+        "team": "Nurnberg"
+      },
+      {
+        "name": "Forest Whittaker",
+        "rating": 50,
+        "country": "England",
+        "formation": "5-3-2",
+        "team": "Albacete"
+      },
+      {
+        "name": "Sirens Lewis",
+        "rating": 61,
+        "country": "Belgium",
+        "formation": "5-2-3",
+        "team": "Wigan"
+      },
+      {
+        "name": "Inmaculada Keller",
+        "rating": 58,
+        "country": "Belgium",
+        "formation": "4-4-2",
+        "team": "Ascoli"
+      },
+      {
+        "name": "Leon Sydney",
+        "rating": 54,
+        "country": "Belgium",
+        "formation": "4-3-3",
+        "team": "Guingamp"
+      }
+    ]
+  },
+  {
+    "division": 7,
+    "managers": [
+      {
+        "name": "Jones Yates",
+        "rating": 62,
+        "country": "England",
+        "formation": "4-4-2",
+        "team": "Hull City"
+      },
+      {
+        "name": "Domingo Alegre",
+        "rating": 70,
+        "country": "Argentina",
+        "formation": "4-2-2-2",
+        "team": "Eibar"
+      },
+      {
+        "name": "Berit Trost",
+        "rating": 70,
+        "country": "Germany",
+        "formation": "5-4-1",
+        "team": "Karlsruher"
+      },
+      {
+        "name": "Joao da Cunha",
+        "rating": 77,
+        "country": "Brazil",
+        "formation": "4-5-1",
+        "team": "Plymouth"
+      },
+      {
+        "name": "Barrios Cabrero",
+        "rating": 61,
+        "country": "Argentina",
+        "formation": "4-4-2",
+        "team": "Como"
+      },
+      {
+        "name": "Justin Olson",
+        "rating": 67,
+        "country": "Belgium",
+        "formation": "4-2-2-2",
+        "team": "Niort"
+      },
+      {
+        "name": "Alessandro Ebert",
+        "rating": 62,
+        "country": "Germany",
+        "formation": "5-2-3",
+        "team": "Birmingham City"
+      },
+      {
+        "name": "Marcio Carretero",
+        "rating": 65,
+        "country": "Spain",
+        "formation": "5-3-2",
+        "team": "Las Palmas"
+      },
+      {
+        "name": "Jacob Hooper",
+        "rating": 65,
+        "country": "Belgium",
+        "formation": "4-3-3",
+        "team": "Fortuna Dusseldorf"
+      },
+      {
+        "name": "Laszlo Barkholz",
+        "rating": 67,
+        "country": "Germany",
+        "formation": "4-4-2",
+        "team": "Cremonese"
+      }
+    ]
+  },
+  {
+    "division": 6,
+    "managers": [
+      {
+        "name": "Wolfrudiger Gorlitz",
+        "rating": 64,
+        "country": "Germany",
+        "formation": "5-3-2",
+        "team": "Sunderland"
+      },
+      {
+        "name": "Eduarda Vaz",
+        "rating": 66,
+        "country": "Portugal",
+        "formation": "5-3-2",
+        "team": "Hannover 96"
+      },
+      {
+        "name": "Alsina Roig",
+        "rating": 73,
+        "country": "Spain",
+        "formation": "4-3-3",
+        "team": "Reims"
+      },
+      {
+        "name": "Juan Becerra",
+        "rating": 82,
+        "country": "Spain",
+        "formation": "5-3-2",
+        "team": "Stoke City"
+      },
+      {
+        "name": "Benedetto Manunta",
+        "rating": 75,
+        "country": "Italy",
+        "formation": "5-2-3",
+        "team": "Pisa"
+      },
+      {
+        "name": "Escribano Barriga",
+        "rating": 67,
+        "country": "Spain",
+        "formation": "4-3-3",
+        "team": "Leganes"
+      },
+      {
+        "name": "Antoinne de Godard",
+        "rating": 69,
+        "country": "France",
+        "formation": "4-5-1",
+        "team": "Heidenheim"
+      },
+      {
+        "name": "Samuel Novaes",
+        "rating": 70,
+        "country": "Brazil",
+        "formation": "4-2-2-2",
+        "team": "Brescia"
+      },
+      {
+        "name": "Gilles Le Foucher",
+        "rating": 77,
+        "country": "France",
+        "formation": "5-2-3",
+        "team": "Tenerife"
+      },
+      {
+        "name": "Rutherford Thompson",
+        "rating": 72,
+        "country": "England",
+        "formation": "5-4-1",
+        "team": "Lorient"
+      }
+    ]
+  },
+  {
+    "division": 5,
+    "managers": [
+      {
+        "name": "Bevilacqua Cugia",
+        "rating": 80,
+        "country": "Italy",
+        "formation": "4-5-1",
+        "team": "Espanyol"
+      },
+      {
+        "name": "Ronny Hill",
+        "rating": 69,
+        "country": "England",
+        "formation": "4-5-1",
+        "team": "Leicester City"
+      },
+      {
+        "name": "Gonzo",
+        "rating": 68,
+        "country": "Brazil",
+        "formation": "4-4-2",
+        "team": "Hamburg"
+      },
+      {
+        "name": "Aiden van Nes",
+        "rating": 78,
+        "country": "Netherlands",
+        "formation": "4-4-2",
+        "team": "Sampdoria"
+      },
+      {
+        "name": "Stephan Golden",
+        "rating": 77,
+        "country": "Belgium",
+        "formation": "4-4-2",
+        "team": "Saint-Etienne"
+      },
+      {
+        "name": "Victor du Descamps",
+        "rating": 81,
+        "country": "France",
+        "formation": "5-4-1",
+        "team": "Watford"
+      },
+      {
+        "name": "Justin Hamon",
+        "rating": 73,
+        "country": "Belgium",
+        "formation": "4-3-3",
+        "team": "Genoa"
+      },
+      {
+        "name": "Paul Rousset",
+        "rating": 71,
+        "country": "France",
+        "formation": "5-3-2",
+        "team": "Bordeaux"
+      },
+      {
+        "name": "Marcio Freitas",
+        "rating": 64,
+        "country": "Portugal",
+        "formation": "5-3-2",
+        "team": "Alaves"
+      },
+      {
+        "name": "Philip Olson",
+        "rating": 81,
+        "country": "Belgium",
+        "formation": "4-2-2-2",
+        "team": "Schalke 04"
+      }
+    ]
+  },
+  {
+    "division": 4,
+    "managers": [
+      {
+        "name": "Thomas Garza",
+        "rating": 74,
+        "country": "Belgium",
+        "formation": "4-5-1",
+        "team": "Wolves"
+      },
+      {
+        "name": "Otilia Menendez",
+        "rating": 78,
+        "country": "Spain",
+        "formation": "5-3-2",
+        "team": "Getafe"
+      },
+      {
+        "name": "Sibile Karz",
+        "rating": 80,
+        "country": "Germany",
+        "formation": "4-3-3",
+        "team": "Sassuolo"
+      },
+      {
+        "name": "Pons Moore",
+        "rating": 73,
+        "country": "Belgium",
+        "formation": "4-2-2-2",
+        "team": "Werder Bremen"
+      },
+      {
+        "name": "Melchor del Pinedo",
+        "rating": 79,
+        "country": "Spain",
+        "formation": "4-2-2-2",
+        "team": "Crystal Palace"
+      },
+      {
+        "name": "Trinidad Angulo",
+        "rating": 91,
+        "country": "Spain",
+        "formation": "5-2-3",
+        "team": "Toulouse"
+      },
+      {
+        "name": "Ripoll Artigas",
+        "rating": 80,
+        "country": "Spain",
+        "formation": "4-5-1",
+        "team": "Empoli"
+      },
+      {
+        "name": "Bartolome",
+        "rating": 85,
+        "country": "Spain",
+        "formation": "5-2-3",
+        "team": "Rennes"
+      },
+      {
+        "name": "Romeo Dyer",
+        "rating": 78,
+        "country": "Belgium",
+        "formation": "5-2-3",
+        "team": "Granada"
+      },
+      {
+        "name": "Nair Abreu-Amorim",
+        "rating": 75,
+        "country": "Portugal",
+        "formation": "4-4-2",
+        "team": "Mainz"
+      }
+    ]
+  },
+  {
+    "division": 3,
+    "managers": [
+      {
+        "name": "Ilariamendi Mazzanti",
+        "rating": 84,
+        "country": "Italy",
+        "formation": "5-4-1",
+        "team": "West Ham"
+      },
+      {
+        "name": "Danny Law",
+        "rating": 54,
+        "country": "England",
+        "formation": "5-4-1",
+        "team": "Athletic Bilbao"
+      },
+      {
+        "name": "Elij van der Veiver",
+        "rating": 83,
+        "country": "Netherlands",
+        "formation": "4-3-3",
+        "team": "Bayer Leverkusen"
+      },
+      {
+        "name": "Lucca Correia",
+        "rating": 84,
+        "country": "Brazil",
+        "formation": "4-5-1",
+        "team": "Lazio"
+      },
+      {
+        "name": "Pasquale Procacci",
+        "rating": 82,
+        "country": "Italy",
+        "formation": "4-3-3",
+        "team": "Nice"
+      },
+      {
+        "name": "Adelinde Hamann",
+        "rating": 91,
+        "country": "Germany",
+        "formation": "5-4-1",
+        "team": "Fiorentina"
+      },
+      {
+        "name": "Theo Almeida",
+        "rating": 79,
+        "country": "Brazil",
+        "formation": "4-3-3",
+        "team": "Sevilla"
+      },
+      {
+        "name": "Marcelo Castro",
+        "rating": 84,
+        "country": "Brazil",
+        "formation": "4-2-2-2",
+        "team": "Valencia"
+      },
+      {
+        "name": "Darren Jenkins",
+        "rating": 70,
+        "country": "England",
+        "formation": "5-3-2",
+        "team": "Brighton"
+      },
+      {
+        "name": "Ties Stichter-Scholten",
+        "rating": 80,
+        "country": "Netherlands",
+        "formation": "4-4-2",
+        "team": "Atalanta"
+      }
+    ]
+  },
+  {
+    "division": 2,
+    "managers": [
+      {
+        "name": "Ibrahim Kuhl",
+        "rating": 96,
+        "country": "Germany",
+        "formation": "4-3-3",
+        "team": "Tottenham"
+      },
+      {
+        "name": "Alexander Scheffers",
+        "rating": 51,
+        "country": "Netherlands",
+        "formation": "4-4-2",
+        "team": "Borussia Dortmund"
+      },
+      {
+        "name": "Lerma Boucher",
+        "rating": 79,
+        "country": "France",
+        "formation": "5-2-3",
+        "team": "RB Leipzig"
+      },
+      {
+        "name": "Victor Dijoux",
+        "rating": 94,
+        "country": "France",
+        "formation": "4-4-2",
+        "team": "AC Milan"
+      },
+      {
+        "name": "Cortes Monteiro",
+        "rating": 85,
+        "country": "Brazil",
+        "formation": "4-5-1",
+        "team": "Napoli"
+      },
+      {
+        "name": "Tristan Lopez",
+        "rating": 82,
+        "country": "Spain",
+        "formation": "5-2-3",
+        "team": "Marseille"
+      },
+      {
+        "name": "Nicolas Thomas",
+        "rating": 80,
+        "country": "England",
+        "formation": "5-3-2",
+        "team": "Chelsea"
+      },
+      {
+        "name": "Leon Miranda-Pedraza",
+        "rating": 66,
+        "country": "Argentina",
+        "formation": "5-2-3",
+        "team": "Roma"
+      },
+      {
+        "name": "Arnal Urrutia",
+        "rating": 77,
+        "country": "Argentina",
+        "formation": "5-4-1",
+        "team": "Real Sociedad"
+      },
+      {
+        "name": "Patricio Matias",
+        "rating": 84,
+        "country": "Portugal",
+        "formation": "4-5-1",
+        "team": "Monaco"
+      }
+    ]
+  },
+  {
+    "division": 1,
+    "managers": [
+      {
+        "name": "Emanuel Nascimento",
+        "rating": 97,
+        "country": "Brazil",
+        "formation": "5-4-1",
+        "team": "Manchester City"
+      },
+      {
+        "name": "Agullo Churron",
+        "rating": 50,
+        "country": "Argentina",
+        "formation": "4-2-2-2",
+        "team": "Real Madrid"
+      },
+      {
+        "name": "Gil Jesus",
+        "rating": 83,
+        "country": "Portugal",
+        "formation": "5-3-2",
+        "team": "Bayern Munich"
+      },
+      {
+        "name": "Kevin Edwards",
+        "rating": 93,
+        "country": "England",
+        "formation": "4-5-1",
+        "team": "Arsenal"
+      },
+      {
+        "name": "Polina Scholtz",
+        "rating": 82,
+        "country": "Germany",
+        "formation": "4-2-2-2",
+        "team": "PSG"
+      },
+      {
+        "name": "Alfonso Cespedes",
+        "rating": 84,
+        "country": "Argentina",
+        "formation": "4-5-1",
+        "team": "Liverpool"
+      },
+      {
+        "name": "Nuno Gaspar",
+        "rating": 87,
+        "country": "Portugal",
+        "formation": "5-3-2",
+        "team": "Barcelona"
+      },
+      {
+        "name": "Bruno Oliveira",
+        "rating": 94,
+        "country": "Portugal",
+        "formation": "4-2-2-2",
+        "team": "Manchester United"
+      },
+      {
+        "name": "Lando Carosone",
+        "rating": 90,
+        "country": "Italy",
+        "formation": "4-4-2",
+        "team": "Inter Milan"
+      },
+      {
+        "name": "Tiburcio Zabala ",
+        "rating": 96,
+        "country": "Argentina",
+        "formation": "5-4-1",
+        "team": "Atletico Madrid"
+      }
+    ]
+  }
+]

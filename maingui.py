@@ -1208,6 +1208,19 @@ class FootballGameGUI:
 
         self.create_button(dlg, "Apply", apply, width=12).pack(pady=6)
         self.create_button(dlg, "Cancel", dlg.destroy, width=12).pack(pady=4)
+    
+    def rarity(self, rating):
+        if rating <= 64:
+            rarity_color = self.colors['card_common']; rarity_name = "COMMON"
+        elif rating <= 74:
+            rarity_color = self.colors['card_uncommon']; rarity_name = "UNCOMMON"
+        elif rating <= 82:
+            rarity_color = self.colors['card_rare']; rarity_name = "RARE"
+        elif rating <= 87:
+            rarity_color = self.colors['card_epic']; rarity_name = "EPIC"
+        else:
+            rarity_color = self.colors['card_legendary']; rarity_name = "LEGENDARY"
+        return rarity_color, rarity_name
    
     def open_pack(self, cost, weights):
         # Buy and open a pack with a step-by-step reveal
@@ -1303,16 +1316,7 @@ class FootballGameGUI:
 
         # Choose rarity colour/name
         rating = player.get("rating", 0)
-        if rating <= 64:
-            rarity_color, rarity_name = self.colors['card_common'], "COMMON"
-        elif rating <= 74:
-            rarity_color, rarity_name = self.colors['card_uncommon'], "UNCOMMON"
-        elif rating <= 82:
-            rarity_color, rarity_name = self.colors['card_rare'], "RARE"
-        elif rating <= 87:
-            rarity_color, rarity_name = self.colors['card_epic'], "EPIC"
-        else:
-            rarity_color, rarity_name = self.colors['card_legendary'], "LEGENDARY"
+        rarity_color, rarity_name = self.rarity(rating)
 
         # Read attributes with sensible fallbacks
         def _attr_from_stats(primary_key, *fallback_top_level):
@@ -1478,21 +1482,7 @@ class FootballGameGUI:
         
         # Rarity colour and label
         rating = player["rating"]
-        if rating <= 64:
-            rarity_color = self.colors['card_common']
-            rarity_name = "COMMON"
-        elif rating <= 74:
-            rarity_color = self.colors['card_uncommon']
-            rarity_name = "UNCOMMON"
-        elif rating <= 82:
-            rarity_color = self.colors['card_rare']
-            rarity_name = "RARE"
-        elif rating <= 87:
-            rarity_color = self.colors['card_epic']
-            rarity_name = "EPIC"
-        else:
-            rarity_color = self.colors['card_legendary']
-            rarity_name = "LEGENDARY"
+        rarity_color, rarity_name = self.rarity(rating)
         
         # Card frame
         card_frame = tk.Frame(dialog, bg=rarity_color, relief=tk.RAISED, bd=5)
@@ -2230,30 +2220,42 @@ class FootballGameGUI:
         dialog.transient(self.root)
         dialog.grab_set()
         
+        # Rarity colour 
+        rating = int(player.get("rating", 0))
+        rarity_color, rarity_name = self.rarity(rating)
+        
         # Player card
-        info_frame = tk.Frame(dialog, bg=self.colors['accent'], relief=tk.RAISED, bd=3)
+        info_frame = tk.Frame(dialog, bg=rarity_color, relief=tk.RAISED, bd=3)
         info_frame.pack(pady=20, padx=20, fill=tk.BOTH, expand=True)
         
         tk.Label(
             info_frame,
             text=player['name'],
-            bg=self.colors['accent'],
+            bg=rarity_color,
             fg=self.colors['text'],
             font=('Arial', 18, 'bold')
         ).pack(pady=10)
         
         tk.Label(
             info_frame,
-            text=f"{player['rating']} OVR",
-            bg=self.colors['accent'],
+            text=rarity_name,
+            bg=rarity_color,
             fg=self.colors['text'],
-            font=('Arial', 16, 'bold')
-        ).pack(pady=5)
+            font=('Arial', 14, 'bold')
+        ).pack(pady=0)
+        
+        tk.Label(
+            info_frame,
+            text=f"{player['rating']} OVR",
+            bg=rarity_color,
+            fg=self.colors['text'],
+            font=('Arial', 24, 'bold')
+        ).pack(pady=(0, 10))
         
         tk.Label(
             info_frame,
             text=f"{player['position']} | {player['country']}",
-            bg=self.colors['accent'],
+            bg=rarity_color,
             fg=self.colors['text'],
             font=('Arial', 12)
         ).pack(pady=5)
@@ -2262,7 +2264,7 @@ class FootballGameGUI:
         tk.Label(
             info_frame,
             text=f"Role: {role}",
-            bg=self.colors['accent'],
+            bg=rarity_color,
             fg=self.colors['text'],
             font=('Arial', 11)
         ).pack(pady=5)
@@ -2272,7 +2274,7 @@ class FootballGameGUI:
         tk.Label(
             info_frame,
             text=f"Chemistry: {chem}/10",
-            bg=self.colors['accent'],
+            bg=rarity_color,
             fg=self.colors['text'],
             font=('Arial', 11, 'bold')
         ).pack(pady=10)
@@ -2288,22 +2290,22 @@ class FootballGameGUI:
                 tk.Label(
                     info_frame,
                     text="Attributes:",
-                    bg=self.colors['accent'],
+                    bg=rarity_color,
                     fg=self.colors['text'],
                     font=('Arial', 12, 'bold')
                 ).pack(pady=10)
                 
-                stats_frame = tk.Frame(info_frame, bg=self.colors['accent'])
+                stats_frame = tk.Frame(info_frame, bg=rarity_color)
                 stats_frame.pack(pady=5)
                 
                 for stat, value in full_player["stats"].items():
-                    stat_row = tk.Frame(stats_frame, bg=self.colors['accent'])
+                    stat_row = tk.Frame(stats_frame, bg=rarity_color)
                     stat_row.pack(anchor='center', pady=2)
                     
                     tk.Label(
                         stat_row,
                         text=f"{stat.capitalize()}:",
-                        bg=self.colors['accent'],
+                        bg=rarity_color,
                         fg=self.colors['text'],
                         font=('Arial', 10),
                         width=12,
@@ -2313,7 +2315,7 @@ class FootballGameGUI:
                     tk.Label(
                         stat_row,
                         text=str(value),
-                        bg=self.colors['accent'],
+                        bg=rarity_color,
                         fg=self.colors['text'],
                         font=('Arial', 10, 'bold'),
                         width=5,
@@ -2370,32 +2372,44 @@ class FootballGameGUI:
             fg=self.colors['text'],
             font=('Arial', 18, 'bold')
         ).pack(pady=10)
+        
+        # Rarity colour 
+        rating = int(player.get("rating", 0))
+        rarity_color, rarity_name = self.rarity(rating)
 
         # Card area
-        card = tk.Frame(dialog, bg=self.colors['accent'], relief=tk.RAISED, bd=3)
+        card = tk.Frame(dialog, bg=rarity_color, relief=tk.RAISED, bd=3)
         card.pack(pady=15, padx=20, fill=tk.BOTH, expand=False)
 
         # OVR + info
         tk.Label(
             card,
-            text=f"{player['rating']} OVR",
-            bg=self.colors['accent'],
+            text=rarity_name,
+            bg=rarity_color,
             fg=self.colors['text'],
-            font=('Arial', 16, 'bold')
-        ).pack(pady=5)
+            font=('Arial', 14, 'bold')
+        ).pack(pady=(10,4))
+    
+        tk.Label(
+            card,
+            text=f"{player['rating']} OVR",
+            bg=rarity_color,
+            fg=self.colors['text'],
+            font=('Arial', 24, 'bold')
+        ).pack(pady=4)
 
         tk.Label(
             card,
             text=f"{player['position']} | {player['country']}",
-            bg=self.colors['accent'],
+            bg=rarity_color,
             fg=self.colors['text'],
             font=('Arial', 12)
-        ).pack(pady=3)
+        ).pack(pady=(0,10))
 
         tk.Label(
             card,
             text=f"Role: {player.get('role', 'No role assigned')}",
-            bg=self.colors['accent'],
+            bg=rarity_color,
             fg=self.colors['text'],
             font=('Arial', 12)
         ).pack(pady=3)
@@ -2405,7 +2419,7 @@ class FootballGameGUI:
         tk.Label(
             card,
             text=f"Chemistry: {chem}/10",
-            bg=self.colors['accent'],
+            bg=rarity_color,
             fg=self.colors['text'],
             font=('Arial', 12, 'bold')
         ).pack(pady=10)
@@ -2414,12 +2428,12 @@ class FootballGameGUI:
         tk.Label(
             card,
             text="Attributes:",
-            bg=self.colors['accent'],
+            bg=rarity_color,
             fg=self.colors['text'],
             font=('Arial', 12, 'bold')
         ).pack(pady=(8, 4))
 
-        stats_frame = tk.Frame(card, bg=self.colors['accent'])
+        stats_frame = tk.Frame(card, bg=rarity_color)
         stats_frame.pack(pady=5)
         
         # Load stats for this player (if present in ratings.json)
@@ -2441,7 +2455,7 @@ class FootballGameGUI:
             name_label = tk.Label(
                 stats_frame,
                 text=f"{label_txt}:",
-                bg=self.colors['accent'],
+                bg=rarity_color,
                 fg=self.colors['text'],
                 font=('Arial', 12),
                 width=12,
@@ -2452,7 +2466,7 @@ class FootballGameGUI:
             value_label = tk.Label(
                 stats_frame,
                 text=str(stats.get(key, "-")),
-                bg=self.colors['accent'],
+                bg=rarity_color,
                 fg=self.colors['text'],
                 font=('Arial', 12, 'bold'),
                 width=5,
@@ -2488,16 +2502,7 @@ class FootballGameGUI:
 
         # Rarity colour 
         rating = int(player.get("rating", 0))
-        if rating <= 64:
-            rarity_color = self.colors['card_common']; rarity_name = "COMMON"
-        elif rating <= 74:
-            rarity_color = self.colors['card_uncommon']; rarity_name = "UNCOMMON"
-        elif rating <= 82:
-            rarity_color = self.colors['card_rare']; rarity_name = "RARE"
-        elif rating <= 87:
-            rarity_color = self.colors['card_epic']; rarity_name = "EPIC"
-        else:
-            rarity_color = self.colors['card_legendary']; rarity_name = "LEGENDARY"
+        rarity_color, rarity_name = self.rarity(rating)
 
         # Player card
         card = tk.Frame(dialog, bg=rarity_color, relief=tk.RAISED, bd=3)
@@ -2613,7 +2618,8 @@ class FootballGameGUI:
             for p in squad if p.get("name") != current_player.get("name")
         ]
         self._filter_countries = set()
-        self._filter_positions = set()
+        position = current_player.get("position", "")
+        self._filter_positions = {position} if position else set()
 
         win = tk.Toplevel(self.root)
         win.title(f"Swap: choose replacement for {current_player.get('name','')}")
@@ -3253,7 +3259,7 @@ class FootballGameGUI:
         # Bottom area with Return button
         bottom = tk.Frame(win, bg=self.colors['bg'])
         bottom.pack(pady=10)
-        target = self.show_play_page if getattr(self, "tm_return_to", "home") == "play" else self.show_squad_page
+        target = self.show_squad_page
         self.create_button(bottom, "Return", lambda: [win.destroy(), target()], width=16).pack()
 
         # Render the list using the same routine as the other player browser

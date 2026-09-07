@@ -22,6 +22,23 @@ Players can create and manage a football team, build a squad through player pack
 - Post-match player ratings and rewards
 - Adjustable match simulation speed
 
+## Screenshots
+
+![Load save screen](game-screenshots/load-save-files.png)
+
+![Team management](game-screenshots/team-management.png)
+
+<p>
+   <img src="game-screenshots/player-details-1.png" width="400">
+   <img src="game-screenshots/player-details-2.png" width="400">
+</p>
+
+![Play screen](game-screenshots/play-screen.png)
+
+![Match screen](game-screenshots/match-screen.png)
+
+![Match ratings](game-screenshots/match-ratings.png)
+
 ## How to Run
 
 1. Install Python 3

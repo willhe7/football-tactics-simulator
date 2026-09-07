@@ -4392,7 +4392,7 @@ class FootballGameGUI:
                         msg = f"{match_min}': {action} BY {def_or_gk.upper()}! (xG: {xg:.2f})"
                         self.match_ratings[attacker["name"]] -= matchratingchange
                         self.match_ratings[defender["name"]] += round((1.25 if action == "BLOCKED" else 1) * 2 * matchratingchange * (1-involvement), 1)
-                        self.match_ratings[gk_player["name"]] += round((1.25 if action == "BLOCKED" else 1) * matchratingchange * involvement,1)
+                        self.match_ratings[gk_player["name"]] += round((0.25 if action == "BLOCKED" else 1) * matchratingchange * involvement,1)
                         self.root.after(int(1 * self.sim_speed))
                         placeholder = atttag
                         atttag = deftag

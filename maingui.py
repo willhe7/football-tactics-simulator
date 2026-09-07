@@ -2724,16 +2724,21 @@ class FootballGameGUI:
         right.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True, padx=8, pady=8)
 
         def render_card(frame, pl, title):
-            tk.Label(frame, text=title, bg=self.colors['accent'], fg=self.colors['text'],
+            rating = int(pl.get("rating", 0))
+            rarity_color, rarity_name = self.rarity(rating)
+            frame.config(bg=rarity_color)
+            tk.Label(frame, text=title, bg=rarity_color, fg=self.colors['text'],
                      font=('Arial', 12, 'bold')).pack(pady=(8,4))
-            tk.Label(frame, text=pl.get("name",""), bg=self.colors['accent'], fg=self.colors['text'],
+            tk.Label(frame, text=pl.get("name",""), bg=rarity_color, fg=self.colors['text'],
                      font=('Arial', 14, 'bold')).pack()
+            tk.Label(frame, text=rarity_name, bg=rarity_color, fg=self.colors['text'],
+                     font=('Arial', 12, 'bold')).pack()
             tk.Label(frame, text=f"{pl.get('rating', '-') } OVR  •  {pl.get('position','-')}  •  {pl.get('country','-')}",
-                     bg=self.colors['accent'], fg=self.colors['text'], font=('Arial', 11)).pack(pady=(4,6))
+                     bg=rarity_color, fg=self.colors['text'], font=('Arial', 11)).pack(pady=(4,6))
             stats = pl.get("stats", {})
             if stats:
                 # Block of label/value pairs
-                stats_frame = tk.Frame(frame, bg=self.colors['accent'])
+                stats_frame = tk.Frame(frame, bg=rarity_color)
                 stats_frame.pack(pady=6)
 
                 rows = [
@@ -2749,7 +2754,7 @@ class FootballGameGUI:
                     tk.Label(
                         stats_frame,
                         text=f"{label_txt}:",
-                        bg=self.colors['accent'],
+                        bg=rarity_color,
                         fg=self.colors['text'],
                         font=('Arial', 12),
                         width=12,
@@ -2760,7 +2765,7 @@ class FootballGameGUI:
                     tk.Label(
                         stats_frame,
                         text=str(stats.get(key, "-")),
-                        bg=self.colors['accent'],
+                        bg=rarity_color,
                         fg=self.colors['text'],
                         font=('Arial', 12, 'bold'),
                         width=5,
@@ -2824,6 +2829,16 @@ class FootballGameGUI:
             else:
                 data[old_index], data[new_index] = data[new_index], data[old_index]
 
+            formation = self.read_team_data("formation", self.edit)
+            slots, _ = self.formation_switch(formation)
+
+            for i in (old_index, new_index):
+                if i < 11:
+                    pos = slots[i + 1]["position"]
+                    valid_roles = self.role_options.get(pos, [])
+
+                    if valid_roles and data[i].get("role") not in valid_roles:
+                        data[i]["role"] = valid_roles[0]
             self.write_team_data(data, "squad", self.edit)
 
             # Close picker, dialog, and parent details if open
@@ -4325,8 +4340,8 @@ class FootballGameGUI:
                     add_commentary(f"{match_min}': {attacker.get('display', attacker['name'])} shoots...", atttag)
                     self.root.after(int(1 * self.sim_speed))
 
-                    att_role_rating = self.role_rating(attacker.get("display"), attacker["role"])
-                    def_role_rating = self.role_rating(defender.get("display"), defender["role"])
+                    att_role_rating = att_rating
+                    def_role_rating = def_rating
                     if attacking_team == your_team:
                         # Their keeper is defending your attack
                         gk_player = opp_squad[gk_involved - 1]

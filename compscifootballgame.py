@@ -657,11 +657,11 @@ def buildopponent():
     playersbyposition = {}
     for p in all_players:
         playersbyposition.setdefault(p["position"], []).append(p)
-    ratingwindow = 7
     selectedplayers = []
     used_names = set()
     # Pick players near target rating per position
     for pos_info in positions:
+        ratingwindow = 7
         pos = pos_info["position"]
         candidates = playersbyposition.get(pos, [])
         filtered = [p for p in candidates if abs(p["rating"] - targetrating) <= ratingwindow]
@@ -709,7 +709,7 @@ def buildopponent():
                 maxboost = 5
             for boost in range(maxboost, 0, -1):  # Try boost from max down to 1
                 targetrating = selectedplayers[i]["rating"] + boost
-                bettercandidates = [p for p in candidates if p["rating"] >= targetrating]
+                bettercandidates = [p for p in candidates if selectedplayers[i]["rating"] + boost <= p["rating"] <= selectedplayers[i]["rating"] + maxboost]
                 # do not pick a name already used
                 better_nodup = [p for p in bettercandidates if p["name"] not in used_names]
                 if better_nodup:

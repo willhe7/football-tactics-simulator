@@ -4366,7 +4366,8 @@ class FootballGameGUI:
                             scorer_name = attacker["name"]
                             assister_name = midfielder["name"]
                             self.last_goal_counts[scorer_name] = self.last_goal_counts.get(scorer_name, 0) + 1
-                            self.last_assist_counts[assister_name] = self.last_assist_counts.get(assister_name, 0) + 1
+                            if assister_name != scorer_name:
+                                self.last_assist_counts[assister_name] = self.last_assist_counts.get(assister_name, 0) + 1
                         except Exception:
                             pass
                         msg = f"{match_min}': ⚽ GOAL FOR {attacking_team.upper()}! {attacker.get('display', attacker['name'])} SCORES! (xG: {xg:.2f})"
@@ -4390,8 +4391,8 @@ class FootballGameGUI:
                             def_or_gk = defender.get("display", defender["name"]) 
                         msg = f"{match_min}': {action} BY {def_or_gk.upper()}! (xG: {xg:.2f})"
                         self.match_ratings[attacker["name"]] -= matchratingchange
-                        self.match_ratings[defender["name"]] += round(2 * matchratingchange * (1-involvement), 1)
-                        self.match_ratings[gk_player["name"]] += round(matchratingchange * involvement,1)
+                        self.match_ratings[defender["name"]] += round((1.25 if action == "BLOCKED" else 1) * 2 * matchratingchange * (1-involvement), 1)
+                        self.match_ratings[gk_player["name"]] += round((1.25 if action == "BLOCKED" else 1) * matchratingchange * involvement,1)
                         self.root.after(int(1 * self.sim_speed))
                         placeholder = atttag
                         atttag = deftag

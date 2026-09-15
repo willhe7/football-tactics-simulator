@@ -2618,7 +2618,10 @@ class FootballGameGUI:
             for p in squad if p.get("name") != current_player.get("name")
         ]
         self._filter_countries = set()
-        position = current_player.get("position", "")
+        
+        formation = self.read_team_data("formation", self.edit)
+        player_slots, _ = self.formation_switch(formation)
+        position = player_slots[index_in_xi]["position"]
         self._filter_positions = {position} if position else set()
 
         win = tk.Toplevel(self.root)

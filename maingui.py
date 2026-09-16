@@ -4345,6 +4345,16 @@ class FootballGameGUI:
                         # Much deeper + much less often
                         if xg >= 0.40:
                             xg *= 0.82
+                    
+                    elif def_line_rank == 0 and def_press_rank == 1:
+                        # Much deeper + less often
+                        if xg >= 0.45:
+                            xg *= 0.86
+
+                    elif def_line_rank == 1 and def_press_rank == 0:
+                        # Deeper + much less often
+                        if xg >= 0.45:
+                            xg *= 0.86
 
                     elif def_line_rank == 1 and def_press_rank == 1:
                         # Deeper + less often

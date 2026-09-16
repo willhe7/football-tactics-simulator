@@ -4129,11 +4129,15 @@ class FootballGameGUI:
                                 mult = 1
 
                             if def_width == "narrow":
-                                if side == "middle":         mult = max(1, mult - 1)
-                                else:                        mult += 1
+                                if side == "middle":
+                                    mult = max(1, mult - 1)
+                                else:
+                                    mult += 1
                             elif def_width == "wide":
-                                if side in ("left","right"): mult = max(1, mult - 1)
-                                else:                         mult += 1
+                                if side in ("left","right"):
+                                    mult = max(1, mult - 1)
+                                else:
+                                    mult += 1
 
                             pool.extend([slot_idx] * mult)
 
@@ -4330,8 +4334,22 @@ class FootballGameGUI:
 
                     xg = xg_mid * rel
 
-                    # Defensive width vs approach: direct xG counter (after factors)
+                    # Defensive width vs approach: direct xG counter
                     xg *= _approach_vs_width_factor(att_tac, def_tac)
+
+                    # Deep low block: suppresses high-quality chances
+                    def_press_rank = _rank_press(def_tac.get("press"))
+                    def_line_rank = _rank_line(def_tac.get("defensive line"))
+
+                    if def_line_rank == 0 and def_press_rank == 0:
+                        # Much deeper + much less often
+                        if xg >= 0.40:
+                            xg *= 0.82
+
+                    elif def_line_rank == 1 and def_press_rank == 1:
+                        # Deeper + less often
+                        if xg >= 0.50:
+                            xg *= 0.90
 
                     # noise + clamps
                     xg += random.uniform(-0.05, 0.05)
